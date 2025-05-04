@@ -1,0 +1,1 @@
+python -m briefcase run android -d emulator-5554
