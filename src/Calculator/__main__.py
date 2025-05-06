@@ -52,10 +52,10 @@ class Calculator(toga.App):
     def startup(self):
         self.command = ""
         self.first_value = ""
-        self.size_x = 400
+        self.size_x = 300
         self.size_y = 600
         buttons_box = toga.Box(style=Pack(direction=COLUMN))
-        button_styles = Pack(width=100, height=100, font_size=20)
+        button_styles = Pack(width=60, height=60, font_size=20)
         buttons_row = []
         buttons_row.append(["C", "%", "del", "/"])
         buttons_row.append(["7", "8", "9", "x"])
